@@ -12,25 +12,29 @@
     }
 }
 body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .headerBackground{
-    background-color : #212121;
-    background-repeat: no-repeat;
+    background-color : #211e18;
     background-size: 110%;   
+}
+.mainBackground{
+    background-color: #ffffed;
+    background-size: 100%;
 }
 h1, h2, h3, h4, h5, h6{
     font-weight: bold;
+    text-transform: uppercase;
 }
 .btn:hover {
-    background-color: darkblue;
+    background-color: lightgray;
 }
 #pic {
     max-height: 300px;
     max-width: 300px;
 }
 footer{
-    background-color: ghostwhite;
+    background-color: #ffffed;
 }
 #Layer_1{
     height: 25px;

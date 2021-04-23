@@ -24,7 +24,7 @@
             </svg>
           </a>
 
-          <a href="mailto:isabel.questel@gmail.com">
+          <a href="mailto:isabelle.questel0923@orange.fr">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#ffffed" class="bi bi-envelope" viewBox="0 0 16 16">
               <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
             </svg>
@@ -64,10 +64,10 @@
         <div class="row">
           <article class="mt-2 mb-4">
             <img src="../pictures/logoFull.jpg" alt="Portrait de Isabelle"
-            class="img-fluid rounded-circle float-lg-end mb-2 mb-sm-2 ms-lg-4 ms-xl-4 ms-xxl-4" id="pic">
-            <p class="lh-sm">Coiffeuse visagiste passionnée depuis 30 ans ,
-              spécialiste des perruques médicales, compléments capillaires, pose d'extensions, 
-              je vous propose mes prestations de coiffure. <br> 
+            class="img-fluid rounded-circle float-md-end float-lg-end float-xl-end 
+            ms-lg-4 ms-xl-4 ms-xxl-4 d-none d-sm-none d-md-block" id="pic">
+            <p class="lh-sm">Je suis Isabelle, coiffeuse visagiste passionnée depuis 30 ans ,
+              spécialiste des perruques médicales, compléments capillaires et pose d'extensions.<br> 
               <br>
               Bien souvent l'épanouissement personnel passe par l'image que l'on a de soi. <br>
               Cheminement perso <br> 
@@ -75,10 +75,12 @@
               
               Je me déplace sur votre lieu de vie afin de vous accompagner pour pallier à vos soucis 
               d'alopécie partielle ou totale. <br>
-              Formation specifique <br>
+              FORMATION SPECIFIQUE <br>
               <br>
-              Dimension sociale du métier et pourquoi tu aime ça? <br>
-              Qu'est ce que tu apporte en plus de la prestation technique <br>
+              DIMENSION SOCIALE DU METIER, PQ TU AIME CA <br>
+              QU EST CE QUE TU APPORTES DE PLUS QUE LA PRESTATION TECHNIQUE <br>
+              POURQUOI LA VENUE SUR LE LIEU DE VIE C EST MIEUX ? <br>
+
             </p>
           </article>
         </div>
@@ -105,7 +107,7 @@
           </article>
         </div>
 
-        <div class="container-fluid row">
+        <div class="container-fluid row d-none d-sm-flex">
           <div class="col-4">
             <img class="img-fluid rounded float-start" src="../pictures/realisation10.jpeg" 
             alt="coupe sur cheveux courts">
@@ -119,6 +121,13 @@
             alt="coupe sur cheveux bouclés">
           </div>
         </div>
+
+        <!-- the "size div" below is for small phone size only-->
+        <div class="d-flex d-sm-none justify-content-center">
+          <img class="img-fluid rounded" src="../pictures/realisation10.jpeg" 
+          alt="coupe sur cheveux courts" id="picInSmall">
+        </div>
+         <!--end of "size div"-->
 
         <h2 class="mt-4 mb-4 border-bottom border-3">Prestations et tarifs</h2>
         
@@ -198,23 +207,24 @@
             </tbody>
           </table>
         </div>
+        
+        <!-- the "size div" below is for small phone size only -->
+        <div class="d-flex d-sm-none justify-content-center">
+          <img class="img-fluid rounded justify-content-center" src="../pictures/realisation2.jpg"
+           alt="coupe sur cheveux bouclés" id="picInSmall">
+        </div>  
+       <!--end of "size div"-->
 
         <h2 class="mt-4 mb-4 border-bottom border-3">Contact et Horaires</h2>
         
         <div class="container-fluid row mb-4">
+          <div class="container-fluid col-2 d-none d-sm-none d-md-none d-lg-block">  
             <img src="../pictures/logo.png" alt="Logo"
-            class="col-4 img-fluid rounded" id="pic">
+              class="img-fluid rounded-circle">
+          </div>
 
-            <ul class="lh-sm col-5 list-group">
-              <li class="list-group-item">06.72.40.07.99</li>
-              <li class="list-group-item">email?</li>
-              <li class="list-group-item">30 rue Alphonse de Lamartine 21160 MARSANNAY LA CÔTE</li>
-              <li class="list-group-item">SIRET 41484918200061 - Code NAF 9602A/li>
-              <li class="list-group-item">Agrément sécurité sociale 21269966 4</li>
-              
-            </ul>
-
-            <ul class="col-3">
+          <div class="container-fluid col-5 d-none d-sm-none d-md-none d-lg-block"> 
+            <ul class="text-center">
               <li>Le Lundi de 09:00 à 19:30</li>
               <li>Le Mardi de 09:00 à 19:30</li>
               <li>Le Mercredi de 09:00 à 19:30</li>
@@ -222,13 +232,49 @@
               <li>Le Vendredi de 09:00 à 19:30</li>
               <li>Le Samedi de 09:00 à 13:00</li>
             </ul>
+          </div>
+          <div class="container-fluid col-5 d-none d-sm-block d-md-block d-lg-none"> 
+            <p class="text-center">
+              Du Lundi au vendredi de 9h à 19h30. <br>
+              Le samedi de 9h à 13h.
+            </p>
+          </div>
+
+          <div class="container-fluid col-5 d-none d-sm-none d-md-block">
+            <p class="lh-sm text-center">
+              <a href="tel:+33672400799" class="fw-bold text-dark">06.72.40.07.99</a>  <br>
+              <a href="mailto:isabelle.questel0923@orange.fr" class="fw-bold text-dark">isabelle.questel0923@orange.fr</a> <br>
+              30 rue Alphonse de Lamartine 21160 MARSANNAY LA CÔTE <br>
+              SIRET 41484918200061 - Code NAF 9602A <br>
+              Agrément sécurité sociale 21269966 4 <br>
+            </p>
+          </div>
+          <div class="container-fluid col-5 d-none d-sm-block d-md-none">
+            <p class="lh-sm text-center">
+              <a href="tel:+33672400799" class="fw-bold text-dark">06.72.40.07.99</a>  <br>
+              <a href="mailto:isabelle.questel0923@orange.fr" class="fw-bold text-dark">isabelle.questel0923@orange.fr</a> <br>
+              Agrée sécurité sociale<br>
+            </p>
+          </div>
+
+          <!-- the "size div" below is for small phone size only-->
+          <div class="d-block d-sm-none">
+            <p class="lh-sm text-center">
+              Du Lundi au vendredi de 9h à 19h30. <br>
+              Le samedi de 9h à 13h. <br>
+              <a href="tel:+33672400799" class="fw-bold text-dark">06.72.40.07.99</a>  <br>
+              <a href="mailto:isabelle.questel0923@orange.fr" class="fw-bold text-dark">isabelle.questel0923@orange.fr</a> <br>
+              Agrée sécurité sociale<br>
+            </p>
+          </div>
+          <!-- end of "size div"-->
         </div>
 
       
     </div>
   </main>
 
-  <footer class="container">
+  <footer class="container-fluid">
 
     <div class="row">
       <button type="button" class="btn border border-dark col-1" name="to-the-top">
@@ -238,7 +284,7 @@
           </svg>
         </a>
       </button>
-      <p class="col blockquote-footer d-flex justify-content-xl-end">Copyright © Mai 2021 - Nina SELLAL</p>
+      <p class="col-11 blockquote-footer d-flex justify-content-end">Copyright © Mai 2021 - Nina SELLAL</p>
     </div>
   </footer>
 </body>

@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
     body {
-        font-size: 0.75em;
+        font-size: 0.7em;
     }
     .card-img-top{
         max-height: 79%;
@@ -8,7 +8,7 @@
         margin: auto;
     }
     .table{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
 }
 body{
@@ -16,6 +16,8 @@ body{
 }
 .headerBackground{
     background-color : #000000;
+    background-image: url(./pictures/outils.jpg);
+    background-position: center;
     background-size: 110%;   
 }
 .mainBackground{
